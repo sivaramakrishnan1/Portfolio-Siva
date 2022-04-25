@@ -1,0 +1,104 @@
+*{
+    font-family: "DM Sans", "Segoe UI";
+}
+
+.header
+{
+    margin: 2% 2% 0% 2%;
+    display: grid;
+    grid-template-columns: 50% 10%;
+    grid-template-rows:auto;
+    grid-column-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: #C8D3D5;
+    border-radius: 20px 20px 0px 0px;
+}
+.navext
+{
+    margin: 2% 2% 0% 2%;
+    margin-top: 0px;
+    background-color: rgb(85, 85, 85);
+    border-radius: 0px 0px 20px 20px;
+}
+a{
+    color: inherit;
+    text-decoration-line: none;
+}
+.nav
+{
+    display: flex;
+    flex-direction: row;
+    margin: 0% 2% 2% 2%;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-around;
+    list-style:none;
+    font-size: 30px;
+    font-weight: 700;
+    color: #D5C5C8 !important;
+    text-decoration: none !important;
+}
+
+img{
+    border-radius: 100%;
+    padding: 2em;
+}
+
+#shade{
+    opacity: 55%;
+}
+
+ul{
+    list-style: none;
+    display: inline-block;
+    margin: 0%;
+    padding: 0%;
+}
+
+.gridDetails{
+    margin: 2%;
+    grid-column-gap: 2%;
+    grid-row-gap: 4%;
+    display: grid;
+    grid-template-columns: 46% 40% 10%;
+}
+
+.ContactDetails, .EducationDetails, .languages, .projects, .sgc, .socialMedia{
+    background-color: #C8D3D5;
+    border-radius: 15px;
+    padding: 2% 4%;
+    display: grid;
+    align-items: center;
+    transition: all 0.5s ease 0s;
+}
+.ContactDetails:hover, .EducationDetails:hover, .languages:hover, .projects:hover, .sgc:hover, .socialMedia:hover{
+    color: rgb(1, 67, 104);
+    transition: all 0.35s ease 0s;
+    background-color: #97cfda;
+    word-spacing: 1px;
+}
+
+.socialMedia {
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-rows: 25% 25% 25% 25%;
+}
+ 
+.EducationDetails {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.socialMedia {
+    grid-column-start:3 ;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+#logo {
+    width: 50px;
+    height: 50px;
+
+}
