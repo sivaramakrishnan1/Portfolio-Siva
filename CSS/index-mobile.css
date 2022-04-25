@@ -1,0 +1,113 @@
+
+/**************** Mobile view of index ***************/
+*{
+    font-family: "DM Sans", "Segoe UI";
+}
+
+#pfp
+{
+    max-width: 100px;
+    max-height: 100px;
+}
+
+#greet
+{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+#skillIntro{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.header
+{
+    margin: 2% 2% 0% 2%;
+    display: grid;
+    grid-template-columns: 70% 20%;
+    grid-template-rows:auto;
+    grid-column-gap: 2px;
+    justify-content: center;
+    align-items: center;
+    background-color: #C8D3D5;
+    border-radius: 20px 20px 0px 0px;
+}
+.navext
+{
+    margin: 2% 2% 0% 2%;
+    margin-top: 0px;
+    background-color: rgb(85, 85, 85);
+    border-radius: 0px 0px 20px 20px;
+}
+a{
+    color: inherit;
+    text-decoration-line: none;
+}
+.nav
+{
+    display: flex;
+    flex-direction: row;
+    margin: 0% 2% 2% 2%;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-around;
+    list-style:none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #D5C5C8 !important;
+    text-decoration: none !important;
+}
+
+img{
+    border-radius: 100%;
+    padding: .5 em;
+}
+
+#shade{
+    opacity: 55%;
+}
+
+ul{
+    list-style: none;
+    display: inline-block;
+    margin: 0%;
+    padding: 0%;
+}
+
+.gridDetails{
+    margin: 2%;
+    display: grid;
+    grid-template-rows: auto;
+    grid-row-gap: 2%;
+}
+
+.ContactDetails, .EducationDetails, .languages, .projects, .sgc, .socialMedia{
+    background-color: #C8D3D5;
+    border-radius: 15px;
+    padding: 3% 5%;
+    display: grid;
+    align-items: center;
+}
+
+.ContactDetails:hover, .EducationDetails:hover, .languages:hover, .projects:hover, .sgc:hover, .socialMedia:hover{
+    color: rgb(1, 67, 104);
+    transition: all 0.35s ease 0s;
+    background-color: #97cfda;
+    word-spacing: 1px;
+    transition: all 15s ease 15s;
+}
+
+.socialMedia 
+{
+    align-items: center;
+    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25% ;    
+}
+
+#logo {
+    width: 50px;
+    height: 50px;    
+    padding: 5% 8%;
+}

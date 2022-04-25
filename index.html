@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./assets/FavIcon32.png" type="image/x-icon">
-    <link rel="stylesheet" href="./CSS/Style_about.css">
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 700px)" href="CSS/index.css">
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 701px) and (max-width: 900px)" href="css/devices/screen/layout-modify2.css">
+    <link rel="stylesheet" type="text/css" media="screen and (max-width: 901px)" href="./CSS/index-mobile.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"rel="stylesheet">
@@ -14,14 +16,14 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
     <head>
      </head>
-    <title>About - Siva</title>
+    <title>VenSiva - About</title>
 
 </head>
     <body class="body">
         <div class="header">
             <div class="l_header">
-                <h1 style="font-size: 50px;">Hi, I am Siva</h1>
-                <h2 style="font-size: 20px;">
+                <h1 id="greet">Hi, I am Siva</h1>
+                <h2 id="skillIntro">
                     <i id="shade">Budding - </i>Android application developer <br>
                     <i id="shade">Budding - </i>Web Designer <br>
                     <i id="shade">Pro - </i>UX/UI Designer<br>
@@ -29,7 +31,7 @@
                 </h2>
             </div>        
             <div class="r_header">
-                <img src="./assets/PFP.jpg" alt="Pity face of Siva" width="250" height="250">        
+                <img id="pfp" src="./assets/PFP.jpg" alt="Pity face of Siva">        
             </div>          
         </div>
         <div class="navext">
@@ -47,6 +49,13 @@
                     <li><b>Address:</b> 1/167 Aalamara Street, Nandhiyalam.</li>
                 </ul>        
             </div>
+
+            <div class="socialMedia" style="padding: 0%; text-align: center;">
+                <a href="https://github.com/sivaramakrishnan1"><img id="logo" src="./assets/Social_Media/github.png" alt="Github Link"></a>
+                <a href="https://www.facebook.com/sivageeven/"><img id="logo" src="./assets/Social_Media/facebook.png" alt="facebook Link"></a>
+                <a href="https://www.instagram.com/ven_siva/"><img id="logo" src="./assets/Social_Media/instagram.png" alt="instagram Link"></a>
+                <a href="https://twitter.com/Joy_Boy_Siva"><img id="logo" src="./assets/Social_Media/twitter.png" alt="twitter Link"></a>
+            </div>
             
             <div class="EducationDetails">
                 <p>
@@ -61,12 +70,7 @@
                 </p>
             </div>
 
-            <div class="socialMedia" style="padding: 0%; text-align: center;">
-                <a href="https://github.com/sivaramakrishnan1"><img id="logo" src="./assets/Social_Media/github.png" alt="Github Link"></a>
-                <a href="https://www.facebook.com/sivageeven/"><img id="logo" src="./assets/Social_Media/facebook.png" alt="facebook Link"></a>
-                <a href="https://www.instagram.com/ven_siva/"><img id="logo" src="./assets/Social_Media/instagram.png" alt="instagram Link"></a>
-                <a href="https://twitter.com/Joy_Boy_Siva"><img id="logo" src="./assets/Social_Media/twitter.png" alt="twitter Link"></a>
-            </div>
+            
 
             <div class="languages">
                 <b>Language Proficiencies</b><br>
@@ -76,13 +80,13 @@
 
             <div class="projects">
                 <b>Mini - Project</b> Face Mask detection using Python <br>
-                <b>Project</b> Asymmetric Encryption using graph coordinates (Development stage)
+                <b>Project</b> Symmetric Encryption using graph coordinates (Development stage)
             </div>
 
             <div class="sgc">
-                <b>Students Guidance Cell</b> <br>
-                <b>President</b> (2021 - '22) Conducted Automation in Python. <br>
-                <b>Advisor</b> (2019 - '21) Conducted technical & Non-technical events <br>
+                <b>Roles and responsibilities</b> <br>
+                <b>Students Guidance Cell - President</b> (2021 - '22) Conducted Automation in Python. <br>
+                <b>Students Guidance Cell - Advisor</b> (2019 - '21) Conducted technical & Non-technical events <br>
             </div>
         </div>
     </body>
