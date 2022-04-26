@@ -1,19 +1,17 @@
-*{
+* {
     font-family: "Space Grotesk", "Segoe UI", "SF Pro";
     font-size: 20px;
 }
 
-.forsomereason
-{
+.forsomereason {
     display: flex;
     flex-direction: column;
 }
 
-.top
-{
+.top {
     display: flex;
     flex-direction: row;
-    max-width:100%;
+    max-width: 100%;
     background-color: #8cc7df;
     margin: 20px;
     margin-bottom: 0px;
@@ -24,44 +22,43 @@
     align-items: center;
 }
 
-.name
-{
+.name {
     font-family: 'Space Grotesk', sans-serif;
     font-size: 50px;
     margin: 2px;
     margin-bottom: 0px;
     padding: 20px;
     color: #051881;
-    
+
 }
-.headerimage
-{
+
+.headerimage {
     max-width: 100px;
     max-height: 100px;
     border-radius: 100%;
 }
 
-.navext
-{
+.navext {
     margin: 20px;
     margin-top: 0px;
     background-color: #051881;
     border-radius: 0px 0px 20px 20px;
 
 }
+
 a {
     color: #8cc7df;
     text-decoration: none;
 }
-.nav
-{
+
+.nav {
     display: flex;
     flex-direction: row;
     margin: 10px;
     padding: 20px;
     align-items: center;
     justify-content: space-around;
-    list-style:none;
+    list-style: none;
     font-size: 20px;
     color: #dde028;
     font-weight: 700;
@@ -69,38 +66,37 @@ a {
     line-height: 0px;
 }
 
-img{
+img {
     height: 250px;
     width: 250px;
     border-radius: 15px;
     margin: 2%;
 }
 
-.projects
-{
-    background-color:rgb(230, 235, 238);
+.projects {
+    background-color: rgb(230, 235, 238);
     padding: 2%;
     margin: 2%;
     height: 1500px;
     border-radius: 20px;
     display: grid;
     grid-template-columns: 20% 20% 20% 20%;
-    justify-content:space-around;
+    justify-content: space-around;
     grid-row-gap: 2%;
     grid-column-gap: 2%;
 }
 
 #wall01 {
-    grid-column-start:3 ;
+    grid-column-start: 3;
     grid-column-end: 5;
 }
 
 #wall02 {
-    grid-column-start:1;
+    grid-column-start: 1;
     grid-column-end: 3;
 }
 
 #wall03 {
-    grid-column-start:3;
+    grid-column-start: 3;
     grid-column-end: 5;
 }

@@ -1,8 +1,8 @@
-
 /**************** Mobile view of index ***************/
 *{
     font-family: "DM Sans", "Segoe UI";
     font-size: 14px;
+    margin: 0px;
 }
 
 #pfp
@@ -13,56 +13,61 @@
 
 #greet
 {
-    font-size: 18px;
-    font-weight: 700;
+    font-size: 25px;
+    font-weight: bolder !important; 
 }
 
 #skillIntro{
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 400;
 }
 
 .header
 {
-    margin: 2% 2% 0% 2%;
     display: grid;
-    grid-template-columns: 70% 20%;
-    grid-template-rows:auto;
-    grid-column-gap: 2px;
+    grid-template-rows: 70% 30%;
+    grid-template-columns:auto;
     justify-content: center;
-    align-items: center;
-    background-color: #C8D3D5;
-    border-radius: 20px 20px 0px 0px;
+    align-items: center;   
 }
+
+.l_header {
+    margin-top: -25%;
+    padding-top: 10%;
+    z-index: 2;
+    background-image: linear-gradient(180deg, #ffffff00 0%, #C8D3D5 25%);
+    text-align: center;
+}
+.r_header {
+    grid-row-start: 1;
+    z-index: 1;
+}
+
 .navext
 {
-    margin: 2% 2% 0% 2%;
     margin-top: 0px;
-    background-color: rgb(85, 85, 85);
-    border-radius: 0px 0px 20px 20px;
+    background-color: #555555;
 }
+
 a{
     color: inherit;
     text-decoration-line: none;
 }
+
 .nav
 {
+    margin-top: -10%;
+
     display: flex;
     flex-direction: row;
-    margin: 0% 2% 2% 2%;
     padding: 20px;
     align-items: center;
     justify-content: space-around;
     list-style:none;
     font-size: 14px;
     font-weight: 400;
-    color: #D5C5C8 !important;
+    color: #ffffff !important;
     text-decoration: none !important;
-}
-
-img{
-    border-radius: 100%;
-    padding: .5 em;
 }
 
 #shade{
@@ -110,5 +115,5 @@ ul{
 #logo {
     width: 50px;
     height: 50px;    
-    padding: 5% 8%;
+       padding: 5% 8%;
 }
