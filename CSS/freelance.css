@@ -90,13 +90,6 @@ img{
     grid-column-gap: 2%;
 }
 
-img:hover{
-    border-width: 0%;
-    border-color: #051881;
-    transition: all 0.2s ease 0.35s;
-    box-shadow: 10px 5px 25px #626262;
-}
-
 #wall01 {
     grid-column-start:3 ;
     grid-column-end: 5;
