@@ -1,5 +1,5 @@
 * {
-    font-family: "Space Grotesk", "Segoe UI", "SF Pro";
+    font-family: "DM sans", "Segoe UI", "SF Pro";
     font-size: 20px;
 }
 
@@ -15,7 +15,6 @@
     background-color: #8cc7df;
     margin: 20px;
     margin-bottom: 0px;
-    padding: 20px;
     padding-left: 50px;
     border-radius: 20px 20px 0px 0px;
     justify-content: start;
@@ -23,18 +22,17 @@
 }
 
 .name {
-    font-family: 'Space Grotesk', sans-serif;
     font-size: 50px;
+    font-weight: bold;
     margin: 2px;
     margin-bottom: 0px;
     padding: 20px;
     color: #051881;
-
 }
 
 .headerimage {
-    max-width: 100px;
-    max-height: 100px;
+    max-width: 125px;
+    max-height: 125px;
     border-radius: 100%;
 }
 
@@ -61,7 +59,6 @@ a {
     list-style: none;
     font-size: 20px;
     color: #dde028;
-    font-weight: 700;
     text-decoration: none !important;
     line-height: 0px;
 }
@@ -95,7 +92,8 @@ img {
     grid-column-start: 3;
     grid-column-end: 5;
     height: 250px; 
-    width: 500px;
+    width: 500px;    
+    justify-self: center;
 }
 
 .wall02 {
@@ -103,6 +101,8 @@ img {
     grid-column-end: 3;
     height: 250px; 
     width: 500px;
+    justify-self: center;
+
 }
 
 .wall03 {
@@ -110,4 +110,5 @@ img {
     grid-column-end: 5;
     height: 250px; 
     width: 500px;
+    justify-self: center;
 }
