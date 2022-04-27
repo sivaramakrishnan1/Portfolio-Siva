@@ -1,88 +1,82 @@
-*{
-    font-family: "Space Grotesk", "Segoe UI";
-    font-size: 20px;
+* {
+    font-family: "DM Sans", "Segoe UI", "SF Pro";
+    font-size: 14px;
 }
 
-.forsomereason
-{
+.header {
     display: flex;
     flex-direction: column;
 }
 
-.top
-{
-    display: flex;
-    flex-direction: row;
-    max-width:100%;
+.top {
+    display: grid;
+    grid-column: auto auto;
     background-color: #8cc7df;
-    margin: 20px;
-    margin-bottom: 0px;
-    padding: 20px;
-    padding-left: 50px;
+    margin: 2% 2% 0% 2%;
+    padding: 2% 2% 2% 2%;
     border-radius: 20px 20px 0px 0px;
-    justify-content: start;
     align-items: center;
+    justify-content: space-around;
 }
 
-.name
-{
-    font-family: 'Space Grotesk', "Segoe UI";
-    font-size: 50px;
-    margin: 2px;
-    margin-bottom: 0px;
-    padding: 20px;
+.name {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 2%;
     color: #051881;
-    
-}
-.headerimage
-{
-    max-width: 100px;
-    max-height: 100px;
-    border-radius: 100%;
+    grid-column-start: 2;
 }
 
-.navext
-{
-    margin: 20px;
-    margin-top: 0px;
+.headerimage {
+    max-width: 75px;
+    max-height: 75px;
+    border-radius: 100%;
+    padding: 2%;
+}
+
+.navext {
+    margin: 0% 2% 2% 2%;
     background-color: #051881;
     border-radius: 0px 0px 20px 20px;
+}
 
-}
 a {
-    color: #202122;
-    text-decoration: underline;
+    color: inherit;
+    text-decoration: none;
 }
-.nav
-{
+
+.nav {
     display: flex;
     flex-direction: row;
     margin: 10px;
     padding: 20px;
     align-items: center;
     justify-content: space-around;
-    list-style:none;
+    list-style: none;
     font-size: 20px;
-    color: #dde028;
-    font-weight: 700;
+    font-weight: 400;
+    color: #8cc7df;
     text-decoration: none !important;
     line-height: 0px;
 }
 
 .para-intro
 {
-    margin: 30px;
-    width: 98%;
+    margin: 20px 20px 20px 20px;
+    text-align: justify;
 }
 
 .emoji{
     position:absolute;
     margin-left: 5px;
+    width: 15px;
+    height: 15px;
 }
 
 .storyhead
 {
-    font-size: 72px;
+    font-size: 20px;
     font-weight: 900;
     margin: 30px;
     margin-bottom: 5px;
@@ -90,10 +84,6 @@ a {
 
 .stories
 {
-    margin: 20px;
-    border-radius: 20px;
-    max-width: 100%;
-    background-color: rgb(209, 209, 209);
     display: flex;
     flex-direction: column;
     justify-content:space-around;
@@ -101,19 +91,22 @@ a {
 
 .story-one
 {
+    margin: 10px 20px;
+    border-radius: 15px;
+    background-color: rgb(209, 209, 209) ;
     display: flex;
-    flex-direction: row;
+    flex-direction:  column;
     justify-content: space-around;
     align-items: center;
 }
 
 .story-image
 {
-    margin: 20px;
-    border-radius: 20px;
+    margin: 0px 0px 20px 0px;
+    border-radius: 20px 20px 0px 0px;
     object-fit:cover;
-    max-width: 35% !important;
-    max-height: 35% !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
 }
 
 .content
@@ -126,31 +119,33 @@ a {
 }
 .message-head
 {
+    padding: 10px;
     font-weight: 600;
-    font-size: 36px !important;    
+    font-size: 18px !important;    
 }
 
 .message
 {
-    font-size: 20px !important;    
-
+    font-size: 12px !important; 
+    padding: 10px;
 }
 
 .quote
 {
     background-color: rgb(221, 209, 172);
     border-radius: 20px;
-    margin: 30px;
-    padding: 50px;
+    margin: 20px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
     font-weight: 700;
+    font-size: 12px;
 }
 
 .nameQ
 {
     font-weight: normal;
-    font-size: small;
+    font-size: 12px;
 }
