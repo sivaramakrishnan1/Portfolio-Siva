@@ -86,28 +86,17 @@ img {
     grid-column-gap: 2%;
 }
 
-.proj {
-    height: 250px; 
-    width: 250px;
-}
-
-.wall01 {
+#wall01 {
     grid-column-start: 3;
     grid-column-end: 5;
-    height: 250px; 
-    width: 500px;
 }
 
-.wall02 {
+#wall02 {
     grid-column-start: 1;
     grid-column-end: 3;
-    height: 250px; 
-    width: 500px;
 }
 
-.wall03 {
+#wall03 {
     grid-column-start: 3;
     grid-column-end: 5;
-    height: 250px; 
-    width: 500px;
 }
