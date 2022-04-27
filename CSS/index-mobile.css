@@ -11,7 +11,7 @@
 }
 
 #greet {
-    font-size: 25px;
+    font-size: 35px;
     font-weight: bolder !important;
 }
 
@@ -29,7 +29,7 @@
 }
 
 .l_header {
-    margin-top: -25%;
+    margin-top: -40%;
     padding-top: 10%;
     z-index: 2;
     background-image: linear-gradient(180deg, #ffffff00 0%, #C8D3D5 25%);
