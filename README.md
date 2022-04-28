@@ -1,11 +1,11 @@
 # My Portfolio Site
 
 ## What I learnt apart from basic:
-### * HTML
+* **HTML**
   * Dedicated `<footer>` tag in HTML
   * The inline container `<span>` tag
 
-### * CSS
+* **CSS**
   * Display:
     * `flex`
     * `Grid` (most favourite 🤌🤌)
@@ -15,7 +15,7 @@
     * `absolute`
     * `fixed`
 
-### * Multiple device support
+* **Multiple device support**
   * Supports on computer
   * Supports on mobile
   * *But not supports on tablet* (Kind of tired)
