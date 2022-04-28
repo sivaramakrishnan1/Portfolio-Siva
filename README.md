@@ -22,3 +22,5 @@
 	1. Supports on computer
 	2. Supports on mobile
 	3. *But not supports on tablet* (Kind of tired)
+
+So happy that I done **UI/UX course** in the past. It helped me to decide the design of this site at many points.  
