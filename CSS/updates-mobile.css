@@ -136,16 +136,20 @@ a {
     border-radius: 20px;
     margin: 20px;
     padding: 20px;
-    display: flex;
-    flex-direction: column;
     text-align: center;
-    align-items: center;
-    font-weight: 700;
-    font-size: 12px;
+}
+.messageQ {
+    font-family: 'Playfair Display', serif !important;
+    font-weight: 800;
+    font-style: italic;
+    font-size: 16px;
+    color: #63501f;
 }
 
 .nameQ
 {
-    font-weight: normal;
+    font-family: 'Playfair Display', serif !important;
+    font-weight: 400;
+    color: #63501f;
     font-size: 12px;
 }

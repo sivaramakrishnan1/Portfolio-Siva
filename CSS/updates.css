@@ -135,19 +135,25 @@ a {
 
 .quote
 {
-    background-color: rgb(221, 209, 172);
+    background-color: #ddd1ac;
     border-radius: 20px;
     margin: 30px;
-    padding: 50px;
-    display: flex;
-    flex-direction: column;
+    padding: 40px;
     text-align: center;
-    align-items: center;
-    font-weight: 700;
+}
+
+.messageQ {
+    font-family: 'Playfair Display', serif !important;
+    font-weight: 800;
+    font-style: italic;
+    font-size: xx-large;
+    color: #63501f;
 }
 
 .nameQ
 {
-    font-weight: normal;
-    font-size: small;
+    font-family: 'Playfair Display', serif !important;
+    font-weight: 400;
+    color: #63501f;
+
 }

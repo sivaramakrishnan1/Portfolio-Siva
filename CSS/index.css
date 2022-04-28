@@ -106,9 +106,9 @@ ul {
 
 .socialMedia {
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     display: grid;
-    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-rows: 20% 20% 20% 20%;
 }
 
 .EducationDetails {
